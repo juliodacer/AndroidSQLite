@@ -25,12 +25,12 @@ public class SQLite_OpenHelper extends SQLiteOpenHelper {
     }
 
     //Método que permite ABRIR la BD
-    public void abrirBD() {
+    public void openBD() {
         this.getWritableDatabase(); //INSERT o DELETE (Escribir en la base de datos)
     }
 
     //Método que permite CERRAR la BD
-    public void cerrarBD() {
+    public void closeBD() {
         this.close();
     }
 
